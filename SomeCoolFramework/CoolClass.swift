@@ -14,10 +14,10 @@ public class CoolClass {
     public static var shared: CoolClass = CoolClass()
     
     public func printFoo() {
-        print("FOO!! printed from \(String(describing: #file.components(separatedBy: "/").last!)), \(#function)")
+        print("FOO!! printed from \((#file as NSString).lastPathComponent), \(#function)")
     }
     
     public func printBar() {
-        print("BAR!! printed from \(String(describing: #file.components(separatedBy: "/").last!)), \(#function)")
+        print("BAR!! printed from \((#file as NSString).lastPathComponent), \(#function)")
     }
 }

@@ -83,7 +83,7 @@
                                 <rect key="frame" x="16" y="205.5" width="343" height="80"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2216930651" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="mbR-gM-T3D"/>
+                                    <constraint firstAttribute="height" constant="80" id="sVp-J9-PlT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Print Foo"/>
@@ -95,7 +95,7 @@
                                 <rect key="frame" x="16" y="445.5" width="343" height="80"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="0.2216930651" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="0Ja-wT-jub"/>
+                                    <constraint firstAttribute="height" constant="80" id="xly-mf-jJ3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Print Bar"/>
@@ -103,15 +103,31 @@
                                     <action selector="printBar:" destination="FCy-VC-fyt" eventType="touchUpInside" id="a6c-FA-mNu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecs-JS-4Zb">
+                                <rect key="frame" x="16" y="325.5" width="343" height="80"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.2216930651" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="O0C-Xc-JJY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="qWv-fu-ePI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Print lots of args"/>
+                                <connections>
+                                    <action selector="printLotsOfArgs:" destination="FCy-VC-fyt" eventType="touchUpInside" id="YPa-2z-vUr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1634149996" green="0.98142049629999994" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8RV-xq-Pjz" firstAttribute="trailing" secondItem="sDS-sM-pxP" secondAttribute="trailing" constant="16" id="01L-hB-iYD"/>
-                            <constraint firstItem="SCG-C9-R5N" firstAttribute="leading" secondItem="8RV-xq-Pjz" secondAttribute="leading" constant="16" id="Anm-7z-Q7d"/>
-                            <constraint firstItem="sDS-sM-pxP" firstAttribute="centerY" secondItem="8RV-xq-Pjz" secondAttribute="centerY" constant="-120" id="nnS-00-vWv"/>
-                            <constraint firstItem="sDS-sM-pxP" firstAttribute="leading" secondItem="8RV-xq-Pjz" secondAttribute="leading" constant="16" id="ovy-0A-Ucg"/>
-                            <constraint firstItem="SCG-C9-R5N" firstAttribute="centerY" secondItem="8RV-xq-Pjz" secondAttribute="centerY" constant="120" id="tmV-oc-mbZ"/>
-                            <constraint firstItem="8RV-xq-Pjz" firstAttribute="trailing" secondItem="SCG-C9-R5N" secondAttribute="trailing" constant="16" id="wAx-8N-OeV"/>
+                            <constraint firstItem="8RV-xq-Pjz" firstAttribute="trailing" secondItem="Ecs-JS-4Zb" secondAttribute="trailing" constant="16" id="27M-MH-Mey"/>
+                            <constraint firstItem="Ecs-JS-4Zb" firstAttribute="centerX" secondItem="8RV-xq-Pjz" secondAttribute="centerX" id="3hP-cy-CNJ"/>
+                            <constraint firstItem="Ecs-JS-4Zb" firstAttribute="top" secondItem="sDS-sM-pxP" secondAttribute="bottom" constant="40" id="5rC-6u-iLQ"/>
+                            <constraint firstItem="Ecs-JS-4Zb" firstAttribute="centerY" secondItem="8RV-xq-Pjz" secondAttribute="centerY" id="F9G-LB-sIy"/>
+                            <constraint firstItem="8RV-xq-Pjz" firstAttribute="trailing" secondItem="sDS-sM-pxP" secondAttribute="trailing" constant="16" id="Lan-Mc-1qj"/>
+                            <constraint firstItem="SCG-C9-R5N" firstAttribute="leading" secondItem="8RV-xq-Pjz" secondAttribute="leading" constant="16" id="PPL-ca-hYR"/>
+                            <constraint firstItem="SCG-C9-R5N" firstAttribute="top" secondItem="Ecs-JS-4Zb" secondAttribute="bottom" constant="40" id="oBb-OU-eAy"/>
+                            <constraint firstItem="8RV-xq-Pjz" firstAttribute="trailing" secondItem="SCG-C9-R5N" secondAttribute="trailing" constant="16" id="qst-PV-j1S"/>
+                            <constraint firstItem="sDS-sM-pxP" firstAttribute="leading" secondItem="8RV-xq-Pjz" secondAttribute="leading" constant="16" id="unb-Nx-749"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8RV-xq-Pjz"/>
                     </view>
