@@ -22,8 +22,6 @@
 		A62E21C11F70AB1E000ADC3D /* SecretStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E21C01F70AB1E000ADC3D /* SecretStruct.swift */; };
 		A62E21C41F70B544000ADC3D /* CoolCCode.c in Sources */ = {isa = PBXBuildFile; fileRef = A62E21C21F70B544000ADC3D /* CoolCCode.c */; };
 		A62E21C51F70B544000ADC3D /* CoolCCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A62E21C31F70B544000ADC3D /* CoolCCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A652DF0B1F717BA2002E08D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A652DF0A1F717BA2002E08D4 /* main.m */; };
-		A652DF111F71834B002E08D4 /* MobileDevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A652DF101F71834B002E08D4 /* MobileDevice */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +53,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A652DF061F717BA1002E08D4 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -84,13 +73,10 @@
 		A62E219B1F709F1A000ADC3D /* SomeCoolFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeCoolFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62E219D1F709F1A000ADC3D /* SomeCoolFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeCoolFramework.h; sourceTree = "<group>"; };
 		A62E219E1F709F1A000ADC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A62E21AC1F709F1B000ADC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62E21B91F70A06E000ADC3D /* CoolClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolClass.swift; sourceTree = "<group>"; };
 		A62E21C01F70AB1E000ADC3D /* SecretStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretStruct.swift; sourceTree = "<group>"; };
 		A62E21C21F70B544000ADC3D /* CoolCCode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CoolCCode.c; sourceTree = "<group>"; };
 		A62E21C31F70B544000ADC3D /* CoolCCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolCCode.h; sourceTree = "<group>"; };
-		A652DF081F717BA1002E08D4 /* mdevicefun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mdevicefun; sourceTree = BUILT_PRODUCTS_DIR; };
-		A652DF0A1F717BA2002E08D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A652DF101F71834B002E08D4 /* MobileDevice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MobileDevice; path = ../../../../System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,14 +103,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A652DF051F717BA1002E08D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A652DF111F71834B002E08D4 /* MobileDevice in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,8 +112,6 @@
 				A62E216F1F70967D000ADC3D /* GoDaddyDebugging */,
 				A62E21841F70967D000ADC3D /* GoDaddyDebuggingTests */,
 				A62E219C1F709F1A000ADC3D /* SomeCoolFramework */,
-				A62E21A91F709F1B000ADC3D /* SomeCoolFrameworkTests */,
-				A652DF091F717BA2002E08D4 /* mdevicefun */,
 				A62E216E1F70967D000ADC3D /* Products */,
 				A652DF0F1F71834B002E08D4 /* Frameworks */,
 			);
@@ -147,7 +123,6 @@
 				A62E216D1F70967D000ADC3D /* GoDaddyDebugging.app */,
 				A62E21811F70967D000ADC3D /* GoDaddyDebuggingTests.xctest */,
 				A62E219B1F709F1A000ADC3D /* SomeCoolFramework.framework */,
-				A652DF081F717BA1002E08D4 /* mdevicefun */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,22 +164,6 @@
 				A62E219E1F709F1A000ADC3D /* Info.plist */,
 			);
 			path = SomeCoolFramework;
-			sourceTree = "<group>";
-		};
-		A62E21A91F709F1B000ADC3D /* SomeCoolFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				A62E21AC1F709F1B000ADC3D /* Info.plist */,
-			);
-			path = SomeCoolFrameworkTests;
-			sourceTree = "<group>";
-		};
-		A652DF091F717BA2002E08D4 /* mdevicefun */ = {
-			isa = PBXGroup;
-			children = (
-				A652DF0A1F717BA2002E08D4 /* main.m */,
-			);
-			path = mdevicefun;
 			sourceTree = "<group>";
 		};
 		A652DF0F1F71834B002E08D4 /* Frameworks */ = {
@@ -285,23 +244,6 @@
 			productReference = A62E219B1F709F1A000ADC3D /* SomeCoolFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A652DF071F717BA1002E08D4 /* mdevicefun */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A652DF0E1F717BA2002E08D4 /* Build configuration list for PBXNativeTarget "mdevicefun" */;
-			buildPhases = (
-				A652DF041F717BA1002E08D4 /* Sources */,
-				A652DF051F717BA1002E08D4 /* Frameworks */,
-				A652DF061F717BA1002E08D4 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = mdevicefun;
-			productName = mdevicefun;
-			productReference = A652DF081F717BA1002E08D4 /* mdevicefun */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,10 +270,6 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					A652DF071F717BA1002E08D4 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = A62E21681F70967D000ADC3D /* Build configuration list for PBXProject "GoDaddyDebugging" */;
@@ -350,7 +288,6 @@
 				A62E216C1F70967D000ADC3D /* GoDaddyDebugging */,
 				A62E21801F70967D000ADC3D /* GoDaddyDebuggingTests */,
 				A62E219A1F709F1A000ADC3D /* SomeCoolFramework */,
-				A652DF071F717BA1002E08D4 /* mdevicefun */,
 			);
 		};
 /* End PBXProject section */
@@ -409,14 +346,6 @@
 				A62E21BA1F70A06E000ADC3D /* CoolClass.swift in Sources */,
 				A62E21C11F70AB1E000ADC3D /* SecretStruct.swift in Sources */,
 				A62E21C41F70B544000ADC3D /* CoolCCode.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A652DF041F717BA1002E08D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A652DF0B1F717BA2002E08D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,36 +616,6 @@
 			};
 			name = Release;
 		};
-		A652DF0C1F717BA2002E08D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework/Versions/A",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		A652DF0D1F717BA2002E08D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MobileDevice.framework/Versions/A",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -752,15 +651,6 @@
 			buildConfigurations = (
 				A62E21B31F709F1B000ADC3D /* Debug */,
 				A62E21B41F709F1B000ADC3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A652DF0E1F717BA2002E08D4 /* Build configuration list for PBXNativeTarget "mdevicefun" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A652DF0C1F717BA2002E08D4 /* Debug */,
-				A652DF0D1F717BA2002E08D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
