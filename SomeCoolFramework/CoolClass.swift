@@ -3,7 +3,7 @@
 //  SomeCoolFramework
 //
 //  Created by Derek Selander on LOLz
-//  Copyright © 2017 razeware. All rights reserved.
+//  Copyright © 2017 ¯\_(ツ)_/¯. All rights reserved.
 //
 
 import Foundation
